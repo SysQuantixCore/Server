@@ -135,7 +135,7 @@ Os colaboradores permanecem responsáveis pela revisão humana, validação téc
 - **Tag:** `v2.0.0.0`
 - **Package:** `Server_Release 2.0.0.0.zip`
 - **Format:** ZIP Archive
-- 
+  
 ## 📚 Postagem Oficial do Fórum
 
 Consulte a publicação original no fórum:
