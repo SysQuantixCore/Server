@@ -7,6 +7,7 @@
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-CC2927?logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![AI Development](https://img.shields.io/badge/AI--Assisted-Development-blue.svg)](AI-DEVELOPMENT-POLICY.md)
+[![Latest Release](https://img.shields.io/badge/Release-v2.0.0.0-blue?logo=github)](https://github.com/SysQuantixCore/Server/releases/tag/v2.0.0.0)
 
 [English](README.md) | [Português-BR](README.BRASIL.md)
 
