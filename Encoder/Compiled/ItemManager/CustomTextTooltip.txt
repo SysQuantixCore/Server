@@ -1,0 +1,93 @@
+//--Index		Texto
+//-- Conjunto clássico
+1        "+10:Aumenta: 5.000HP - GST: 5%"
+2        "+11:Aumenta 6.000HP - GST: 2% - Resist. Dano Crítico: +5%"
+3        "+12:Aumenta 7.000HP - GST: 2% - Resist. Dano Crítico: +5%"
+4        "+13:Aumenta 8.000HP - GST: 2% - Resist. Ignorar Defesa: +5%"
+5        "+14:Aumenta 9.000HP - GST: 3% - Resist. Dano x2: +5%"
+6        "+15:Aumenta 10.000HP - GST: 5% - Resist. Dano x3: +5%"
+13     "[+11] Aumenta 8%% de Dano, 8%% de Dano Crítico, 8%% de Dano Perfeito"
+14     "[+13] Aumenta 9%% de Dano, 9%% de Dano Crítico, 9%% de Dano Perfeito"
+15     "[+14] Aumenta 11%% de Dano, 11%% de Dano Crítico, 11%% de Dano Perfeito"
+16     "[+15] Aumenta 15%% de Dano, 15%% de Dano Crítico, 15%% de Dano Perfeito"
+//-- Arma Clássica
+20     "+10:Aumenta dano: +5%"
+21     "+11:Aumenta dano: +6% - Dano Perfeito: +2%"
+22     "+12:Aumenta dano: +7% - Dano Crítico: +2%"
+23     "+13:Aumenta dano: +8% - Ignorar Defesa: +2%"
+24     "+14:Aumenta dano: +9% - Dano x2: +2%"
+25     "+15:Aumenta dano: +10% - Dano x3: +2%"
+//-- Arco e Besta Clássico
+30     "+10:Aumenta dano: +10%"
+31     "+11:Aumenta dano: +12% - Dano Perfeito: +4%"
+32     "+12:Aumenta dano: +14% - Dano Crítico: +4%"
+33     "+13:Aumenta dano: +16% - Ignorar Defesa: +4%"
+34     "+14:Aumenta dano: +18% - Dano x2: +4%"
+35     "+15:Aumenta dano: +20% - Dano x3: +4%"
+//-- asa 1
+40     "+10:Aumenta 5.000 HP - Aumenta Dano: +3%"
+41     "+11:Aumenta 5.000 HP - Aumenta Dano: +3% - Dano Perfeito: +2%"
+42     "+12:Aumenta 5.000 HP - Aumenta Dano: +3% - Dano Crítico: +2%"
+43     "+13:Aumenta 5.000 HP - Aumenta Dano: +3% - Ignorar Defesa: +2%"
+44     "+14:Aumenta 5.000 HP - Aumenta Dano: +3% - Dano x2: +2%"
+45     "+15:Aumenta 5.000 HP - Aumenta Dano: +3% - Dano x3: +2%"
+//-- asa 2
+50      "+10:Aumenta 5.000 HP - Aumenta Dano: +3%"
+51      "+11:Aumenta 7.000 HP - Aumenta Dano: +5% - Dano Perfeito: +3%"
+52      "+12:Aumenta 9.000 HP - Aumenta Dano: +7% - Dano Crítico: +3%"
+53      "+13:Aumenta 11.000 HP - Aumenta Dano: +9% - Ignorar Defesa: +3%"
+54      "+14:Aumenta 13.000 HP - Aumenta Dano: +11% - Dano x2: +3%"
+55      "+15:Aumenta 15.000 HP - Aumenta Dano: +13% - Dano x3: +3%"
+
+//-- Anel 
+60      "Aumenta Quantidade de HP: +2.000 HP - GST: +3%"
+
+//-- Pen
+70      "Aumenta Quantidade de HP: +3.000 HP - Aumenta Dano: +3%"
+
+//-- pet Lobo Vermelho - STC - SPT
+80		"Lobo Vermelho Aumenta 10.000HP - Dano: +20% - Velocidade de Ataque: +20"
+81		"STC/SPT/SHK Aumenta: +30.000HP - Velocidade de Ataque: +20"
+//-- Pet Diabo Menor 
+82		"Aumenta: +10.000HP - Velocidade de Ataque: +20"
+//-- Pet Diabo Maior - Deus Protetor
+83		"Aumenta: +30.000HP - Velocidade de Ataque: +10"
+//-- Cavalo Divino
+84		"Aumenta Quantidade de HP: +30.000"
+85		"Aumenta Dano PVP: +50%"
+86		"Absorção de dano: +20%"
+87		"Aumenta Velocidade de Ataque: +20"	
+
+//-- Caixa Presente Vermelha
+210     "50% de chance de dropar item sem LUCK"
+211     "50% de chance de dropar item com LUCK:"
+212     "- 35% de chance de dropar arma nível 6 com LUCK"
+213     "- 35% de chance de dropar equipamento nível 6 com LUCK"
+214     "- 10% de chance de dropar arma nível 7 com LUCK"
+215     "- 10% de chance de dropar equipamento nível 7 com LUCK"
+216     "- 10% de chance de dropar anel/pen"
+217     "Caixa Presente Vermelha pode ser obtida ao caçar chefes e está disponível no comerciante de cartas"
+// Item
+320		"Fórmula de Criação de Pet Nível I"
+321		"1 Pena do Demônio"
+322		"1 Chifre Quebrado"
+323		"3 Pedras da Vida"
+324		"1 Pedra do Caos Primordial"
+325		"Droppa no mapa Icarus com taxa de 10%"
+326		"Obtido ao criar na máquina do caos em Noria"
+327		"Diabo Menor = pena do demônio + 3 life + 1 chaos"
+328		"Diabo Maior = diabo menor + 5 life + 1 chaos + 1 arma +4 ou superior com op life"
+329		"Deusa Protetora = diabo menor + 5 life + 1 chaos + 1 item de defesa +4 ou superior com op life"
+330		"SHK = alma do lobo espiritual + STC + SPT"
+331		"Cavalo Divino = diabo menor + diabo maior + deusa protetora"
+
+//Notificação final do item
+2000     	"..::MUONLINE::.."
+2001		"..::Atualização::.."
+2002		"Opção Ativada Quando a Arma Tiver EX + LUCK +16.Op"
+2003		"Opção Ativada Quando o Conjunto Tiver EX + LUCK +16.Op"
+2004		"Opção Ativada Quando o Anel Tiver Aumento de HP/MP + EX"
+2005		"Opção Ativada Quando a Pen Tiver Aumento de HP/MP + EX"
+2006		"Opção Ativada Quando a Asa Tiver EX + LUCK +16.Op/Aumento HP/MP 5%"
+2007		"Opção Ativada Quando a Asa Tiver LUCK +16.Op/Aumento HP/MP 5%"
+end

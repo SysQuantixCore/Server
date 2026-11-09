@@ -1,0 +1,50 @@
+- Inventário x700 não ajustado
+- Mostrar informações de item solto --> Alt + mouse sobre o item não ajustado
+- Interface X700
+- Acesso aos arquivos "MonsterSetBase" e "MonsterSetBaseCS"
+- Bug no tamanho da barra de tempo do MacroTime
+- Bug de nível 4 da asa e PetCustom 5-6 para que você possa entrar no evento KanturuRemain Refinado
+- OffHelper + Botão não definido no Helper "Z"
+
+
+- Nenhuma linha definida para Missão e Reinicialização. Funciona com "CustomNPCQuest"
+- Bug de reinicialização que não dá pontos por missão
+- Bug do TuisterSlash BK
+- Bug do CustomMonster WC WP GP
+
+
+- Redefinição de bugs e MasterReset
+- Bug Nonbre del Personaje del Dl con el caballo que salga mas arriba XD
+- No se Arreglado El panda Marron y Rosado
+- Não se Arreglado en stads Advacen
+Taxa de experiência
+Taxa MasterExperience
+- Bug Anel boneco de neve.bmd
+- Não foi registrado nenhum AddRewardMoney "Zen" em Data/Custom/CustomQuest.txt
+- Não se Arreglado Experiência e MasterExperiencia nas informações do personagem
+- Não foi configurado zenDrop.xml "Controlar todo o Zen dos Mapas"
+- Não se Arreglado antihack
+- Bug nonbre criar personagem ruso se bugea el characer
+- Bug arma de 2 mãos se pone com escudo
+- Bug Arco y ballesta se poderia poner el Escudo
+- Bug JewelBank "Agora você pode sacar com durabilidade 255"
+- Tabela de eventos Interface Custom/CustomQuest "Modificar"
+- Bug Aura "Party" de Elf em OffMove
+- Bug DEL SET DEL RF QUE PUEDAS BOTAR Y GUARDAR
+- Bug Alt Con helper que se cruza
+- Bug na capa do Ring halowen e Ring GM agregar ao src
+- Bug Enter para vender e comprar no NPC
+- Bug do ALT Bug Party
+- Bug Bug Karutan 1 Desconectar
+- Bug Linea de Los Staff De Mago con Armas + 15
+- Bug Efeito dos Arcos da Elfa Agora são constantes
+- Bug Bufer que encheu os 4 inventários e não te deixou entrar..!
+- Bug Desbordamiento de memoria Que crasheaba el GameServer
+
+- Sem adicionar anel para robôs Mu Haven S8 "13, 163" "13, 164" "13, 165"
+- Bug Mix.bmd Cliente "GS" e "GSCS" Agora trabalhe com pacote
+- Bug Desborde de Item Costo para la Maquina Chaos
+- no Se Libero Monster Effect Pântano da Calma
+- no Se Libero Monster Effect Vulcanus + Bug de monstro "Blood Assassin" e variantes que cuando morian
+Abra o servidor para sua animação bugada.
+- Bug Skill Bow e Ballesta "Fenrri - Unira - Unicordio - Dinorat" e MasterSkill

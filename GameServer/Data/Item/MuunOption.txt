@@ -1,0 +1,7 @@
+0
+//Index	Type	Rank	OptionIndex	EvolutionItemIndex
+end
+
+1
+//Index	OptVal0	OptVal1	OptVal2	OptVal3	OptVal4	MaxOptVal	SpecOptIdx	SpecOptVal	MapZone	PlayTime	DayOfWeek	MinHour	MaxHour	MinLevel	MaxLevel	MinMasterLevel	MaxMasterLevel
+end

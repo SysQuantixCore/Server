@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LogReaderGUI/1.0.0": {
+        "runtime": {
+          "LogReaderGUI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LogReaderGUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

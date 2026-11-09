@@ -1,0 +1,14 @@
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\bin\Debug\net8.0-windows\LogReaderGUI.exe
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\bin\Debug\net8.0-windows\LogReaderGUI.deps.json
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\bin\Debug\net8.0-windows\LogReaderGUI.runtimeconfig.json
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\bin\Debug\net8.0-windows\LogReaderGUI.dll
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\bin\Debug\net8.0-windows\LogReaderGUI.pdb
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\obj\Debug\net8.0-windows\LogReaderGUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\obj\Debug\net8.0-windows\LogReaderGUI.AssemblyInfoInputs.cache
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\obj\Debug\net8.0-windows\LogReaderGUI.AssemblyInfo.cs
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\obj\Debug\net8.0-windows\LogReaderGUI.csproj.CoreCompileInputs.cache
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\obj\Debug\net8.0-windows\LogReaderGUI.dll
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\obj\Debug\net8.0-windows\refint\LogReaderGUI.dll
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\obj\Debug\net8.0-windows\LogReaderGUI.pdb
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\obj\Debug\net8.0-windows\LogReaderGUI.genruntimeconfig.cache
+D:\5.2 Takumi_ItamarSR\Source\Source\LogReaderVS2022\LogReaderGUI\obj\Debug\net8.0-windows\ref\LogReaderGUI.dll
