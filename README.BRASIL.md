@@ -146,6 +146,12 @@ Este projeto reconhece as contribuições históricas e os trabalhos relacionado
 - [takumi12](https://tuservermu.com.ve/index.php?action=profile;u=16349) — MuHelper e Right Click.
 - [Qubit](https://tuservermu.com.ve/index.php?action=profile;u=36306) — desenvolvimento, melhorias e manutenção.
 
+## 📦 Último Lançamento
+
+<badge color="success">Versão mais recente: v2.0.0.0</badge>
+
+[![GitHub Release](https://img.shields.io/badge/GitHub-View%20All%20Releases-181717?style=flat&logo=github&logoColor=white)](https://github.com/SysQuantixCore/Server/releases)
+
 ## 📄 Licença
 
 Este projeto é distribuído sob os termos da **Licença MIT**.
