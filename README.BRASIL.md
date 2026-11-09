@@ -150,7 +150,7 @@ Este projeto reconhece as contribuições históricas e os trabalhos relacionado
 
 <badge color="success">Versão mais recente: v2.0.0.0</badge>
 
-[![GitHub Release](https://img.shields.io/badge/GitHub-View%20All%20Releases-181717?style=flat&logo=github&logoColor=white)](https://github.com/SysQuantixCore/Server/releases)
+[![GitHub Release](https://img.shields.io/badge/GitHub-View%20All%20Releases-181717?style=flat&logo=github&logoColor=white)](https://github.com/SysQuantixCore/Server/releases/tag/v2.0.0.0)
 
 ## 📄 Licença
 
