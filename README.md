@@ -36,13 +36,6 @@ The project also aims to provide an organized structure for technical analysis, 
 - **Documentation:** technical information to assist with understanding, maintenance, and customization of the project.
 - **AI-assisted development:** responsible use of artificial intelligence tools for code analysis, debugging, optimization, and documentation.
 
-**Release information:**
-
-- **Version:** 2.0.0.0
-- **Tag:** `v2.0.0.0`
-- **Package:** `Server_Release 2.0.0.0.zip`
-- **Format:** ZIP Archive
-
 ## 🛠️ Technologies and Tools
 
 | Technology | Application |
@@ -131,6 +124,13 @@ AI applications are accepted for:
 - Compatibility and performance studies.
 
 Contributors remain responsible for human review, technical validation, security, and the provenance of their contributions.
+
+**Release information:**
+
+- **Version:** 2.0.0.0
+- **Tag:** `v2.0.0.0`
+- **Package:** `Server_Release 2.0.0.0.zip`
+- **Format:** ZIP Archive
 
 ## 📚 Official Forum Post
 
