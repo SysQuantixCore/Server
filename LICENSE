@@ -1,6 +1,4 @@
-MIT License
-
-Copyright (c) 2026 Qubit
+MIT License (English-US)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +17,91 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+------------------------------------------------------------
+
+MIT License (Português-BR)
+
+Por meio desta, é concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia
+deste software e dos arquivos de documentação associados (o "Software"), para lidar
+com o Software sem restrições, incluindo, sem limitação, os direitos
+de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender
+cópias do Software, e permitir que as pessoas para as quais o Software é
+fornecido façam o mesmo, sujeito às seguintes condições:
+
+O aviso de direitos autorais acima e este aviso de permissão devem ser incluídos em todas
+as cópias ou partes substanciais do Software.
+
+O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
+IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIALIZAÇÃO,
+ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. EM NENHUM CASO OS AUTORES OU DETENTORES DE DIREITOS AUTORAIS
+SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTRA
+RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CONTRATO, RESPONSABILIDADE CIVIL OU
+OUTRA FORMA, DECORRENTE DE, FORA OU EM CONEXÃO COM O SOFTWARE OU O USO OU
+OUTRAS AÇÕES NO SOFTWARE.
+
+
+------------------------------------------------------------
+
+Licencia MIT (Spanish-ES)
+
+Por la presente se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia
+de este software y los archivos de documentación asociados (el "Software"), para utilizar
+el Software sin restricciones, incluyendo, entre otras, los derechos
+de usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender
+copias del Software, y permitir a las personas a las que se les proporcione el Software
+hacer lo mismo, sujeto a las siguientes condiciones:
+
+El aviso de derechos de autor anterior y este aviso de permiso deben incluirse en todas
+las copias o partes sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA,
+INCLUYENDO, PERO NO LIMITADO A, LAS GARANTÍAS DE COMERCIABILIDAD,
+IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR
+SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRA
+RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O DE OTRA MANERA, DERIVADA DE,
+FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS ACCIONES EN EL
+SOFTWARE.
+
+
+------------------------------------------------------------
+
+PROJECT DEVELOPMENT AND AI ATTRIBUTION
+
+Project: Main
+Maintainer: Qubit
+Organization: SysQuantixCore
+Development Year: 2026
+
+This project supports open software development, academic research,
+independent developers, and responsible AI-assisted programming.
+
+AI-assisted development tools may be used for code generation, debugging,
+optimization, refactoring, documentation, testing, and technical research.
+
+Contributors are encouraged to disclose substantial AI-assisted contributions
+and remain responsible for reviewing, validating, testing, and verifying
+the code they submit.
+
+Students, academic researchers, educational institutions, and independent
+developers are welcome to study, experiment with, modify, and develop
+derivative projects in accordance with the applicable license terms.
+
+AI-generated contributions do not automatically establish copyright ownership
+or guarantee originality. Contributors must respect third-party intellectual
+property rights, software licenses, and applicable academic integrity rules.
+
+This development statement is informational and does not modify, replace,
+or impose additional restrictions on the permissions granted by the MIT License.
+
+For development guidelines, see AI-DEVELOPMENT-POLICY.md.
+
+------------------------------------------------------------
+
+Main.exe (5.2 | 6.3)
+Open Development | AI-Assisted Engineering | Academic Research
+Independent Software Development
+
+Release (c) 2023 ProjectRebirthMu
+Release (c) 2026 Qubit - SysQuantixCore
