@@ -7,6 +7,7 @@
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-CC2927?logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![AI Development](https://img.shields.io/badge/AI--Assisted-Development-blue.svg)](AI-DEVELOPMENT-POLICY.md)
+[![Latest Release](https://img.shields.io/badge/Release-v2.0.0.0-blue?logo=github)](https://github.com/SysQuantixCore/Server/releases/tag/v2.0.0.0)
 
 [English](README.md) | [Português-BR](README.BRASIL.md)
 
@@ -34,6 +35,13 @@ The project also aims to provide an organized structure for technical analysis, 
 - **Maintainability:** organization and improvement of the source code structure.
 - **Documentation:** technical information to assist with understanding, maintenance, and customization of the project.
 - **AI-assisted development:** responsible use of artificial intelligence tools for code analysis, debugging, optimization, and documentation.
+
+**Release information:**
+
+- **Version:** 2.0.0.0
+- **Tag:** `v2.0.0.0`
+- **Package:** `Server_Release 2.0.0.0.zip`
+- **Format:** ZIP Archive
 
 ## 🛠️ Technologies and Tools
 
@@ -141,6 +149,12 @@ This project acknowledges the historical contributions and work related to the e
 - [kayito](https://tuservermu.com.ve/index.php?action=profile;u=5033)
 - [takumi12](https://tuservermu.com.ve/index.php?action=profile;u=16349) — MuHelper and Right Click.
 - [Qubit](https://tuservermu.com.ve/index.php?action=profile;u=36306) — development, improvements, and maintenance.
+
+## 📦 Latest Release
+
+<badge color="success">Latest Version: v2.0.0.0</badge>
+
+[![GitHub Release](https://img.shields.io/badge/GitHub-View%20All%20Releases-181717?style=flat&logo=github&logoColor=white)](https://github.com/SysQuantixCore/Server/releases)
 
 ## 📄 License
 
