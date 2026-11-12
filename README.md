@@ -111,8 +111,6 @@ git push origin my-branch
 
 8. Open a Pull Request for review.
 
-Refer to the `CONTRIBUTING.md` file, when available, for collaboration guidelines.
-
 ## 🤖 AI-Assisted Development
 
 The project allows the responsible use of Artificial Intelligence tools to support software development.
