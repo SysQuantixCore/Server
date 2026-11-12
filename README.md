@@ -130,7 +130,7 @@ Contributors remain responsible for human review, technical validation, security
 
 - **Version:** 2.0.0.0
 - **Tag:** `v2.0.0.0`
-- **Package:** `Main_Release.zip`
+- **Package:** `Server_Release.zip`
 - **Format:** ZIP Archive
 
 ## 📚 Official Forum Post
