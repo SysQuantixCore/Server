@@ -1,0 +1,4 @@
+Credenciais padrão de acesso:
+
+- Usuário: `admin`
+- Senha: `admin`
