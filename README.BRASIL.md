@@ -111,8 +111,6 @@ git push origin minha-branch
 
 8. Abra um Pull Request para análise.
 
-Consulte o arquivo `CONTRIBUTING.md`, quando disponível, para conhecer as diretrizes de colaboração.
-
 ## 🤖 Desenvolvimento Assistido por Inteligência Artificial
 
 O projeto permite o uso responsável de ferramentas de Inteligência Artificial como apoio ao desenvolvimento de software.
