@@ -126,6 +126,13 @@ AI applications are accepted for:
 
 Contributors remain responsible for human review, technical validation, security, and the provenance of their contributions.
 
+**Release information:**
+
+- **Version:** 2.0.0.0
+- **Tag:** `v2.0.0.0`
+- **Package:** `Main_Release.zip`
+- **Format:** ZIP Archive
+
 ## 📚 Official Forum Post
 
 See the original forum post:
@@ -143,6 +150,12 @@ This project acknowledges the historical contributions and work related to the e
 - [kayito](https://tuservermu.com.ve/index.php?action=profile;u=5033)
 - [takumi12](https://tuservermu.com.ve/index.php?action=profile;u=16349) — MuHelper and Right Click.
 - [Qubit](https://tuservermu.com.ve/index.php?action=profile;u=36306) — development, improvements, and maintenance.
+
+## 📦 Latest Release
+
+<badge color="success">Latest Version: v2.0.0.0</badge>
+
+[![GitHub Release](https://img.shields.io/badge/GitHub-View%20All%20Releases-181717?style=flat&logo=github&logoColor=white)](https://github.com/SysQuantixCore/Main/releases/tag/2.0.0.0)
 
 ## 📄 License
 
