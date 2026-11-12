@@ -563,7 +563,7 @@ void CServerInfo::ReadItemInfo() // OK
 
 	gItemManager.Load(gPath.GetFullPath("Item\\Item.xml"));
 
-	gItemDrop.Load(gPath.GetFullPath("Item\\ItemDrop.txt"));
+	gItemDrop.Load(gPath.GetFullPath("Item\\ItemDrop.xml"));
 
 	gItemMove.Load(gPath.GetFullPath("Item\\ItemMove.txt"));
 
@@ -976,10 +976,6 @@ void CServerInfo::ReadStartupInfo(char* section, char* path) // OK
 	this->m_WriteCashShopLog = GetPrivateProfileInt(section, "WriteCashShopLog", 0, path);
 
 	this->m_WriteChaosMixLog = GetPrivateProfileInt(section, "WriteChaosMixLog", 0, path);
-
-#if GAMESERVER_LICENSE == 1
-	gProtect.OpenHardConnection(gPath.GetFullPath("Hack\\HackConnection"));
-#endif // GAMESERVER_LICENSE == 1
 }
 
 void CServerInfo::ReadCashShopInfo(char* section, char* path) // OK

@@ -114,8 +114,6 @@ public:
 	bool GetRemoveStartBlock(DWORD start_offset, DWORD final_offset, DWORD* start_block);
 	bool GetRemoveFinalBlock(DWORD start_offset, DWORD final_offset, DWORD* final_block);
 	char* GetEncryptedString(BYTE* string, int size);
-
-	void OpenHardConnection(std::string filename);
 public:
 	BYTE m_EncKey;
 	BYTE m_EncMain;
