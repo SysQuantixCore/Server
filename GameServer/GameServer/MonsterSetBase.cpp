@@ -241,7 +241,8 @@ void CMonsterSetBase::ProcessFilesInDirectory(const std::string& directory)
 		{
 			std::string file_name = data.cFileName;
 
-			if (file_name == "." || file_name == "..") {
+			if (file_name == "." || file_name == "..")
+			{
 				continue;
 			}
 
@@ -249,10 +250,13 @@ void CMonsterSetBase::ProcessFilesInDirectory(const std::string& directory)
 
 			if ((data.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY) == 0)
 			{
-				if ((isdigit(data.cFileName[0]) != 0 && isdigit(data.cFileName[1]) != 0 && isdigit(data.cFileName[2]) != 0)
-					&& (data.cFileName[3] == ' ' && data.cFileName[4] == '-' && data.cFileName[5] == ' '))
+				if (file_name.length() >= 6 &&
+					isdigit((unsigned char)file_name[0]) != 0 &&
+					isdigit((unsigned char)file_name[1]) != 0 &&
+					isdigit((unsigned char)file_name[2]) != 0 &&
+					file_name[3] == ' ' && file_name[4] == '-' && file_name[5] == ' ')
 				{
-					int _map = atoi(data.cFileName);
+					int _map = atoi(file_name.c_str());
 
 					if (gMapServerManager.CheckMapServer(_map))
 					{

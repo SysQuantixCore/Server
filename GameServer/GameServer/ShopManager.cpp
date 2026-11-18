@@ -11,6 +11,52 @@
 #include "Util.h"
 
 CShopManager gShopManager;
+
+//////////////////////////////////////////////////////////////////////
+// Lista de arquivos das lojas (sem extensao)
+// Para alterar uma loja, edite o nome aqui.
+// Para acrescentar uma loja, inclua uma linha e o indice correspondente
+// deve existir no arquivo de configuracao de shops (CShopManager::Load).
+//////////////////////////////////////////////////////////////////////
+
+struct SHOP_FILE_ENTRY
+{
+	int Index;
+	const char* Name;
+};
+
+static const SHOP_FILE_ENTRY SHOP_FILE_LIST[] =
+{
+	{   0, "000 - Hanzo the Blacksmith"          },
+	{   1, "001 - Liaman the Barmaid"            },
+	{   2, "002 - Pasi the Wizard"               },
+	{   3, "003 - Wandering Merchant Harold"     },
+	{   4, "004 - Wandering Merchant Martin"     },
+	{   5, "005 - Potion Girl Amy"               },
+	{   6, "006 - Lumen the Barmaid"             },
+	{   7, "007 - Wizard Isabel"                 },
+	{   8, "008 - Weapon Merchant Zienna"        },
+	{   9, "009 - Elf Ellio"                     },
+	{  10, "010 - Fairy Lala"                    },
+	{  11, "011 - Alex"                          },
+	{  12, "012 - Merchant Thompson"             },
+	{  13, "013 - Shopkeeper Pamela"             },
+	{  14, "014 - Shopkeeper Angella"            },
+	{  15, "015 - Merchant Natasha"              },
+	{  16, "016 - Sivia"                         },
+	{  17, "017 - Leah"                          },
+	{  18, "018 - Marseille"                     },
+	{  19, "019 - Merchant Moss"                 },
+	{  20, "020 - Shopkeeper Christine"          },
+	{  21, "021 - Arena Guard"                   },
+	{  22, "022 - Wizard Reina"                  },
+	{  23, "023 - Merchant Rehina"               },
+	{  24, "024 - Merchant Volo"                 },
+};
+
+// Extensao usada por todos os arquivos da lista acima
+static const char SHOP_FILE_EXT[] = ".xml";
+
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
 //////////////////////////////////////////////////////////////////////
@@ -83,48 +129,23 @@ void CShopManager::Load(char* path) // OK
 
 void CShopManager::LoadShop() // OK
 {
-	std::map<int, int> LoadShop;
+	int count = sizeof(SHOP_FILE_LIST) / sizeof(SHOP_FILE_LIST[0]);
 
-	char wildcard_path[MAX_PATH];
-
-	wsprintf(wildcard_path, "%s*", gPath.GetFullPath("Shop\\"));
-
-	WIN32_FIND_DATA data;
-
-	HANDLE file = FindFirstFile(wildcard_path, &data);
-
-	if (file == INVALID_HANDLE_VALUE)
+	for (int n = 0; n < count; n++)
 	{
-		return;
-	}
+		std::map<int, SHOP_MANAGER_INFO>::iterator it = this->m_ShopManagerInfo.find(SHOP_FILE_LIST[n].Index);
 
-	do
-	{
-		if ((data.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY) == 0)
+		if (it == this->m_ShopManagerInfo.end())
 		{
-			if (isdigit(data.cFileName[0]) != 0 && isdigit(data.cFileName[1]) != 0 && isdigit(data.cFileName[2]) != 0)
-			{
-				if (data.cFileName[3] == ' ' && data.cFileName[4] == '-' && data.cFileName[5] == ' ')
-				{
-					std::map<int, SHOP_MANAGER_INFO>::iterator it = this->m_ShopManagerInfo.find(atoi(data.cFileName));
-
-					if (it != this->m_ShopManagerInfo.end())
-					{
-						if (LoadShop.find(it->first) == LoadShop.end())
-						{
-							char path[MAX_PATH];
-
-							wsprintf(path, "Shop\\%s", data.cFileName);
-
-							it->second.Shop.Load(gPath.GetFullPath(path));
-
-							LoadShop.insert(std::pair<int, int>(it->first, 1));
-						}
-					}
-				}
-			}
+			continue;
 		}
-	} while (FindNextFile(file, &data) != 0);
+
+		char path[MAX_PATH];
+
+		wsprintf(path, "Shop\\%s%s", SHOP_FILE_LIST[n].Name, SHOP_FILE_EXT);
+
+		it->second.Shop.Load(gPath.GetFullPath(path));
+	}
 }
 
 void CShopManager::ReloadShopInterface() // OK
