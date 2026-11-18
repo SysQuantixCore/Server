@@ -111,8 +111,6 @@ git push origin minha-branch
 
 8. Abra um Pull Request para análise.
 
-Consulte o arquivo `CONTRIBUTING.md`, quando disponível, para conhecer as diretrizes de colaboração.
-
 ## 🤖 Desenvolvimento Assistido por Inteligência Artificial
 
 O projeto permite o uso responsável de ferramentas de Inteligência Artificial como apoio ao desenvolvimento de software.
@@ -127,6 +125,13 @@ São aceitas aplicações de IA para:
 - Estudos de compatibilidade e desempenho.
 
 Os colaboradores permanecem responsáveis pela revisão humana, validação técnica, segurança e procedência das contribuições.
+
+**Release information:**
+
+- **Version:** 2.0.0.0
+- **Tag:** `v2.0.0.0`
+- **Package:** `Server_Release.zip`
+- **Format:** ZIP Archive
 
 ## 📚 Postagem Oficial do Fórum
 
@@ -145,6 +150,12 @@ Este projeto reconhece as contribuições históricas e os trabalhos relacionado
 - [kayito](https://tuservermu.com.ve/index.php?action=profile;u=5033)
 - [takumi12](https://tuservermu.com.ve/index.php?action=profile;u=16349) — MuHelper e Right Click.
 - [Qubit](https://tuservermu.com.ve/index.php?action=profile;u=36306) — desenvolvimento, melhorias e manutenção.
+
+## 📦 Latest Release
+
+<badge color="success">Latest Version: v2.0.0.0</badge>
+
+[![GitHub Release](https://img.shields.io/badge/GitHub-View%20All%20Releases-181717?style=flat&logo=github&logoColor=white)](https://github.com/SysQuantixCore/Server/releases/tag/v2.0.0.0)
 
 ## 📄 Licença
 
