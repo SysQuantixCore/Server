@@ -98,6 +98,9 @@ typedef struct
 
     int MonsterHealthBarSwitch;
     int UserHealthBarSwitch;
+    BYTE Launcher;
+    char LauncherName[32];
+    BYTE GameGuard;
 
 } MAIN_FILE_INFO;
 
@@ -837,6 +840,23 @@ void EncoderInformation()
         ".\\MainInfo.ini"
     );
 #endif // SHUTDOWN_LEVEL_WING3
+
+    info.Launcher = (BYTE)GetPrivateProfileInt(
+        "Launcher", "Launcher", 0, ".\\MainInfo.ini"
+    );
+
+    GetPrivateProfileString(
+        "Launcher",
+        "LauncherName",
+        "MUOnlineLauncher.exe",
+        info.LauncherName,
+        sizeof(info.LauncherName),
+        ".\\MainInfo.ini"
+    );
+
+    info.GameGuard = (BYTE)GetPrivateProfileInt(
+        "Launcher", "GameGuard", 1, ".\\MainInfo.ini"
+    );
 
     CCRC32 CRC32;
 
